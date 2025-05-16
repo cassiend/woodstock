@@ -8,10 +8,10 @@
 <p>Welcome to the Woodstock Guide Book! This guide provides information about the Woodstock area, including local attractions, dining options, and outdoor activities.</p>
 <p>For more detailed information, please refer to the PDF document below:</p>
 <iframe
-		src="docs/Woods_Cabin_v1.pdf"
+		src="docs/Woods_Cabin_v1.pdf#view=fitH"
 		width="100%"
-		style="border:3px solid black;"
-        id="Iframe"
+		height="700px"
+		style="border: none;"
 	>
 		<p>
 			Your browser does not support PDFs.
@@ -19,22 +19,6 @@
 			.
 		</p>
 	</iframe>
-         <script>
-            // Selecting the iframe element
-            var frame = document.getElementById("Iframe");
-            
-            // Adjusting the iframe height onload event
-            frame.onload = function() {
-                // set the height of the iframe as 
-                // the height of the iframe content
-                frame.style.height = frame.contentWindow.document.body.scrollHeight + 'px';
-
-                // set the width of the iframe as the 
-                // width of the iframe content
-                frame.style.width  = frame.contentWindow.document.body.scrollWidth + 'px';
-            }
-        </script>
-       
 </body>
 </html>
 
